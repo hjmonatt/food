@@ -18,6 +18,7 @@ $f3->route('GET /', function() {
     //echo "My Food Page";
     $view = new Template();
     echo $view->render('views/home.html');
+    //echo '<img src="images/food.jpg">';
 });
 
 //Run fat free
