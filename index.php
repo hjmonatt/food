@@ -21,5 +21,10 @@ $f3->route('GET /', function() {
     //echo '<img src="images/food.jpg">';
 });
 
+//Define a "breakfast" route
+$f3->route('GET /breakfast', function() {
+    echo "Breakfast";
+});
+
 //Run fat free
 $f3->run();
